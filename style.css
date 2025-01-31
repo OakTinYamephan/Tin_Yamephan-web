@@ -1,0 +1,192 @@
+/* ตัวกำหนดค่าเริ่มต้น */
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url(img/gogo.jpg);
+    background-size: cover; /* ทำให้รูปภาพเต็มจอ */
+    background-position: center; /* จัดตำแหน่งรูปภาพให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ป้องกันการซ้ำของรูปภาพ */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+/* .projects h2 {
+    font-size:50px;
+} */
+
+h3 {
+    font-size: 25px;
+
+}
+
+h5 {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none; /* ลบเส้นใต้จากลิงก์ */
+}
+
+
+a:hover {
+    background-color: #d4c92e;
+}
+.resume-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #e8e3dd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #1E201E;
+    color: #fff;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+.job-title {
+    margin: 10px 0 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contact-section,
+.skills-section,
+.language-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.language-section p {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.contact-section p {
+    margin: 10px 10px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Main Content */
+.main-content {
+    padding: 30px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.main-content section {
+    margin-bottom: 35px;
+}
+
+.main-content h2 {
+    padding: 10px;
+    background: #5cb6f9;
+    font-size: 2.5rem;
+    color: #131313;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-bottom: 4px solid #000000;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.main-content h3 {
+    color: #050a30;
+    font-size: 30px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.main-content h5 {
+    color: #004fb9;
+    font-size: 25px;
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.job,
+.project,
+.education-item {
+    margin-bottom: 10px 10px;
+}
+
+.education-item h3 {
+    font-size: 25px;
+}
+
+.education-item h3,p {
+    margin: 0 auto;
+}
+
+.education-item img {
+    float: left;
+    width: 70px;
+    margin: 15px 25px;
+}
+
+
+.project-details {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+hr {
+    border: none;
+    height: 3px;  /* ความหนาของเส้น */
+    background: #757575;  /* สีของเส้น */
+    margin: 20px 5px;  /* ระยะห่างด้านบน-ล่าง */
+}
+
+
+/* .project-details a {
+    padding-bottom: 90px;
+} */
+
+/* .project-details a {
+    margin-bottom: 90px;
+} */
+
